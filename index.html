@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagem.png" width="1400" height="200"> 
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <div class="produto" data-nome="Produto 1" data-preco="100">
+                <img src="brigadeiro.jpeg" alt="Produto 1" class="imagem-produto">
+                <h3>Brigadeiros Gourmets</h3>
+                <p>Morango com nutella, Coco queimado, Ninho com nutella, Paçoca, Confete, Oreo, Churros</p>
+                <span>Preço: R$ 130,00</span>
+                <button class="adicionar">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-nome="Produto 2" data-preco="150">
+                <img src="brigtradicional.jpeg" alt="Produto 2" class="imagem-produto">
+                <h3>Brigadeiros Tradicionais</h3>
+                <p>Sabores disponíveis do cento: Moranguinho, Ninho, Casadinho, Amendoim , Brigadeiro, Beijinho </p>
+                <span>Preço: R$ 90,00</span>
+                <button class="adicionar">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-nome="Produto 3" data-preco="200">
+                <img src="doces.jpeg" alt="Produto 3" class="imagem-produto">
+                <h3>Kit 1-Para 30 pessoas</h3>
+                <p>400 Salgados fritos e 200 Doces tradicionais.</p>
+                <span>Preço: R$ 200,00</span>
+                <button class="adicionar">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-nome="Produto 4" data-preco="250">
+                <img src="kit1brig.jpeg" alt="Produto 4" class="imagem-produto">
+                <h3>Kit 2-Para 30 pessoas</h3>
+                <p>300 Salgados fritos, 100 Salgados assados, 60 mini cachorro quente, 150 Doces tradicionais, 100 Doces gourmets</p>
+                <span>Preço: R$ 710,00</span>
+                <button class="adicionar">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-nome="Produto 5" data-preco="2,50">
+                <img src="copo.jpeg" alt="Produto 5" class="imagem-produto">
+                <h3>Copinhos de Mousse</h3>
+                <p>Sabores disponíveis: Morango, Paçoca, Brigadeiro, Beijinho, Limão e Maracujá.</p>
+                <span>Preço: R$ 2,50 UN</span>
+                <button class="adicionar">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-nome="Produto 6" data-preco="30">
+                <img src="caseiro.jpeg" alt="Produto 6" class="imagem-produto">
+                <h3>Caseirinho</h3>
+                <p>Sabores disponíveis: Laranja, Chocolate, Fuba e Milho. De 10 a 12 fatias. Adicional:Brigadeiro, Ninho e Paçoca(+R$15,00)</p>
+                <span>Preço: R$ 30,00</span>
+                <button class="adicionar">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-nome="Produto 7" data-preco="45">
+                <img src="bolovul.jpeg" alt="Produto 7" class="imagem-produto">
+                <h3>Bolo Vulcão</h3>
+                <p>Sabores disponíveis: Chocalate, Ninho, Cenoura com Brigadeiro e Dois Amores. De 10 a 12 fatias.</p>
+                <span>Preço: R$ 45,00</span>
+                <button class="adicionar">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+
+        <section id="carrinho">
+            <h2>Carrinho</h2>
+            <ul id="lista-carrinho"></ul>
+            <strong id="total">Total: R$ 0,00</strong>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja Online. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
